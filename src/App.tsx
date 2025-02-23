@@ -91,9 +91,9 @@ function App() {
             darkMode ? "bg-gray-800" : "bg-white"
           } p-6 rounded-lg shadow-lg`}
         >
-          <h1 className="text-3xl font-semibold mb-4">Wave Worriors</h1>
+          <h1 className="text-3xl font-semibold mb-4">Wave Warriors</h1>
           <div className="prose max-w-none">
-            <p className="text-xl">Single-Slit Diffraction Experiment For First Minimum is a physics simulation using TypeScript, JavaScript, HTML, and CSS. It visualizes wave diffraction through slits with real-time calculations of interference patterns, intensity distribution, and wave behavior.</p>
+            <p className="text-xl">Single-Slit Diffraction Experiment For First Minimum is a physics simulation using FrameWork React in TypeScript/JavaScript, HTML, and CSS. It visualizes wave diffraction through slits with real-time calculations of interference patterns, intensity distribution, and wave behavior.</p>
             <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-4">
               <div
                 className={`${
