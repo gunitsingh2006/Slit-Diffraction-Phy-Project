@@ -54,7 +54,7 @@ function App() {
   return (
     <div
       className={`min-h-screen ${
-        darkMode ? "bg-gray-900 text-white" : "bg-gray-50 text-gray-900"
+        darkMode ? "bg-gray-900 text-white" : "bg-green-50 text-gray-900"
       }`}
     >
       <header
@@ -95,20 +95,7 @@ function App() {
           <div className="prose max-w-none">
             <p className="text-xl">Single-Slit Diffraction Experiment For First Minimum is a physics simulation using FrameWork React in TypeScript/JavaScript, HTML, and CSS. It visualizes wave diffraction through slits with real-time calculations of interference patterns, intensity distribution, and wave behavior.</p>
             <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-4">
-              <div
-                className={`${
-                  darkMode ? "bg-gray-700" : "bg-gray-50"
-                } p-4 rounded-lg`}
-              >
-                <h2 className="text-2xl font-semibold mb-2">Team Members </h2>
-                <ul className="text-xl list-disc list-inside space-y-2">
-                  <li>Gunit Singh Duggal </li>
-                  <li>Divjot Singh Malhotra</li>
-                  <li>Kirat Singh</li>
-                  <li>Navraj Singh</li>
-                  <li>Harman Singh</li>
-                </ul>
-              </div>
+              
             </div>
 
             
